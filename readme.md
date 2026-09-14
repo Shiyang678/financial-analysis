@@ -316,8 +316,6 @@ MIT
 
 ---
 
-## 建议你先落地的文件
-
 先写这几个就够跑 MVP：
 
 ```text
@@ -332,7 +330,7 @@ src/ashare/indicators/trend.py
 dashboard/app.py
 ```
 
-`requirements.txt` 可以先这样：
+`requirements.txt` 
 
 ```text
 akshare
@@ -349,6 +347,3 @@ plotly
 streamlit
 apscheduler
 pytest
-```
-
-下一步我建议直接生成：`requirements.txt`、`settings.yaml`、`cli.py`、`akshare_source.py`、`storage.py` 的初始代码。你可以告诉我你更想用 **AkShare + SQLite + Streamlit**，还是 **Tushare + DuckDB + FastAPI**。
