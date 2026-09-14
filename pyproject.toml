@@ -1,0 +1,26 @@
+[project]
+name = "ashare-insight"
+version = "0.1.0"
+description = "A-share insight analytics framework"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "akshare",
+    "pandas",
+    "numpy",
+    "polars",
+    "duckdb",
+    "sqlalchemy",
+    "pyyaml",
+    "python-dotenv",
+    "typer",
+    "rich",
+    "plotly",
+    "streamlit",
+    "apscheduler",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

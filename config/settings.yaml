@@ -1,0 +1,16 @@
+data:
+  source: akshare
+  start_date: "2018-01-01"
+  adjust: qfq
+  cache_dir: data/cache
+
+storage:
+  database_url: sqlite:///data/db/ashare.db
+  parquet_dir: data/processed
+
+report:
+  output_dir: data/reports
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

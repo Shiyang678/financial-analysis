@@ -1,0 +1,14 @@
+akshare
+pandas
+numpy
+polars
+duckdb
+sqlalchemy
+pyyaml
+python-dotenv
+typer
+rich
+plotly
+streamlit
+apscheduler
+pytest
